@@ -1,5 +1,11 @@
+import Chart from "./components/Chart";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <Chart />
+    </div>
+  );
 };
 
 export default App;
